@@ -1,0 +1,48 @@
+h1{
+    color: #fdb457;
+    transition: 0.3s ease-out;
+    font-size: 30px;
+    margin: 20px;
+
+}
+h1:hover{
+    color:rgb(40, 57, 51);
+    transform-style: flat;
+    font-size: 32px;
+    
+}
+
+
+.search{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+
+}
+form{
+    background-image: url("b2.jpg");
+    width: 100%;
+    min-height: 25vh;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 2px 5px 2px;
+    z-index: 5;
+    
+}
+ input{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+
+}
+button{
+    width:11% ;
+    height: 34px;
+    background-color: #fdb457;
+    border-radius: 5px;
+    
+}
+button:hover{
+    width: 12%;
+    background-color: #fde;
+}
